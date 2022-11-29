@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 400;
+  position: relative;
+}
+
+/* SECTION 1 */
+
+#school-name {
+  /* display: inline-block; */
+  position: absolute;
+  top: 4%;
+  right: 80%;
+  /* text-decoration: line-through; */
+  text-transform: capitalize;
+  /* line-height: 1px; */
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: white;
+}
+
+.welcome {
+  position: absolute;
+  top: 25%;
+  color: rgb(252, 184, 59);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 80px;
+}
+
+p {
+  color: aliceblue;
+  margin-right: 110px;
+  /* margin-left: 15px; */
+}
+
+/* SECTION 2 */
+span {
+  color: #000;
+}
+
+.section-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  /* margin-top: 20px; */
+}
+
+form {
+  width: 600px;
+  border-radius: 50%;
+  border-radius: 2%;
+  padding: 10px;
+  background-color: rgb(245, 236, 225, 0.6);
+  margin-top: 75px;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 2%;
+  margin-bottom: 20px;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
+
+.the-text-1 {
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.the-text {
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+button {
+  position: relative;
+  font-size: larger;
+  right: -40%;
+  padding: 20px 50px;
+  border-radius: 40%;
+  background-color: black;
+  color: white;
+  border-style: none;
+  margin-top: 2px;
+  box-shadow: 0 20px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+button:hover,
+button:visited {
+  cursor: pointer;
+  color: red;
+  background-color: aqua;
+}
+
+h3 {
+  margin-top: 5rem;
+  color: rgb(248, 123, 123);
+}
+
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+#id {
+  text-align: center;
+  color: red;
+}
